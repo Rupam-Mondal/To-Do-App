@@ -1,27 +1,96 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .alltodosection {
         flex-direction: column;
+        align-items: stretch;
+        height: auto;
     }
 
     .todoadd,
     .All-todos {
         width: 100%;
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .heading {
-        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 0;
     }
 
     .btn-section {
         flex-direction: column;
+        align-items: stretch;
+        height: auto;
     }
 
     .Add,
     .ClearAll {
         width: 100%;
         margin-top: 5px;
+    }
+
+    .works {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid black;
+    }
+
+    .nametodo {
+        width: 100%;
+        padding-inline-start: 10px;
+    }
+
+    .Delete {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .del-btn {
+        margin-right: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .alltodosection {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+    }
+
+    .todoadd,
+    .All-todos {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .btn-section {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+    }
+
+    .Add,
+    .ClearAll {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .works {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid black;
+    }
+
+    .nametodo {
+        width: 100%;
+        padding-inline-start: 10px;
+    }
+
+    .Delete {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .del-btn {
+        margin-right: 0;
     }
 }
