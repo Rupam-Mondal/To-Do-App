@@ -13,7 +13,7 @@ This is a simple todo application that helps you keep track of your tasks and ma
 ## Screenshots
 ![Screenshot 1](/Images/ss1.png)
 ![Screenshot 2](/Images/ss3.png)
-![Screenshot 3](/Images/ss3.png)
+![Screenshot 3](/Images/ss2.png)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a new issue or submit a pull request.
