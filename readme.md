@@ -9,6 +9,7 @@ This is a simple todo application that helps you keep track of your tasks and ma
 - Add new tasks with a title
 - Delete tasks
 - Filter tasks based on their status (completed or pending)
+- Edit task
 
 ## Screenshots
 ![Screenshot 1](/Images/ss1.png)
